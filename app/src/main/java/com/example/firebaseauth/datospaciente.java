@@ -1,5 +1,11 @@
 package com.example.firebaseauth;
 
+// Buenas Prácticas: La primera letra de cada palabra de la clase debe ser con Mayuscula: e.i DatosPaciente
+// Los nombres de los atributos se recomiendan que sean en minuscula. e.i rut. Si son dos palabras, la primera en miniscula y la segunda puede ser mayuscula. e.i: tiempoEv
+// Esté tipo de clases tienen la particularidad de que no requieren librerías externas, son aisladas (no depende de otros objetos) y no tienen funciones lógicas.
+// Estás caracteristicas hacen que se puedan llevar a un paquete llamado "model" y dentro de una subcarpeta llamada "data", 
+// Esto le dará un orden y servirá para escalabilidad y portabilidad de código. 
+
 
 public class datospaciente {
     String RUT;
